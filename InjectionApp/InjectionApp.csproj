@@ -1,11 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
-    <ProjectReference Include="..\InjectionService\InjectionService\InjectionService.csproj"/>
-    <ProjectReference Include="..\InjectionEx\InjectionEx.csproj"/>
+    <ProjectReference Include="..\InjectionService\InjectionService\InjectionService.csproj" />
+    <ProjectReference Include="..\InjectionEx\InjectionEx.csproj" />
+    <ProjectReference Include="..\InjectRepository\InjectRepository.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Castle.Windsor" Version="5.0.1"/>
-    <PackageReference Include="Jal.CastleWindsor.Contrib" Version="1.1.0"/>
+    <PackageReference Include="Castle.Windsor" Version="5.0.1" />
+    <PackageReference Include="Jal.CastleWindsor.Contrib" Version="1.1.0" />
   </ItemGroup>
   <PropertyGroup>
     <OutputType>Exe</OutputType>
