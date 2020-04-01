@@ -1,15 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <ItemGroup>
-    <ProjectReference Include="..\InjectionService\InjectionService\InjectionService.csproj" />
-    <ProjectReference Include="..\InjectionEx\InjectionEx.csproj" />
-    <ProjectReference Include="..\InjectRepository\InjectRepository.csproj" />
+  <ItemGroup>    
+    <ProjectReference Include="..\InjectionInterface\InjectionInterface.csproj" />
+    <ProjectReference Include="..\InjectMiddle\InjectMiddle.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Castle.Windsor" Version="5.0.1" />
-    <PackageReference Include="Jal.CastleWindsor.Contrib" Version="1.1.0" />
+    <PackageReference Include="Castle.Facilities.AspNetCore" Version="5.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.1" />
   </ItemGroup>
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 </Project>

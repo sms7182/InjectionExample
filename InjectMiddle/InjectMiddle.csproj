@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\InjectionService\InjectionService.csproj" />
+    <ProjectReference Include="..\InjectionInterface\InjectionInterface.csproj" />
+    <ProjectReference Include="..\InjectRepository\InjectRepository.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Castle.Windsor" Version="5.0.1" />
+    <PackageReference Include="Jal.CastleWindsor.Contrib" Version="1.1.0" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>

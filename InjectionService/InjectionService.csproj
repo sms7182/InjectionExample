@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
-    <ProjectReference Include="..\..\InjectionEx\InjectionEx.csproj" />
+    <ProjectReference Include="..\InjectionInterface\InjectionInterface.csproj" />
   </ItemGroup>
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>

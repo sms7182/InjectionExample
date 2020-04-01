@@ -1,7 +1,9 @@
 using System;
+using InjectionInterface;
+
 namespace InjectionEx
 {
-    public class EntityModel
+    public class EntityModel:IEntityModel
     {
         public EntityModel()
         {

@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <ProjectReference Include="..\InjectionInterface\InjectionInterface.csproj" />
     <ProjectReference Include="..\InjectionEx\InjectionEx.csproj" />
   </ItemGroup>
 
