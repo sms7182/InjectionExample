@@ -1,6 +1,8 @@
 using InjectionInterface;
 using Microsoft.AspNetCore.Mvc;
 
+[Route("api/[controller]")]
+[ApiController]
 public class EntityModelController:ControllerBase
 {
     private IHandleService _handleService { get; }
@@ -15,7 +17,7 @@ public class EntityModelController:ControllerBase
 
     // }
     
-    [HttpGet("get")]
+    [HttpGet("print")]
     public bool Print()
     {
         _handleService.PrintAll();
