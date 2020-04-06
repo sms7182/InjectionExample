@@ -17,7 +17,16 @@ namespace InjectRepository
 
         public List<IEntityModel> GetAll()
         {
-            throw new NotImplementedException();
+            return new List<IEntityModel>{
+                new EntityModel(){
+                Id=Guid.NewGuid(),
+                Name="Test01"
+            },
+                new EntityModel(){
+                Id=Guid.NewGuid(),
+                Name="Test02"
+            }
+            };
         }
     }
 }
